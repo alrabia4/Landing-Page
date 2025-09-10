@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>charity: water</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <h1 class="brand">charity: water</h1>
+    <nav class="nav">
+      <a href="#story">Our Story</a>
+      <a href="#impact">Impact</a>
+      <a href="#donate" class="btn btn--primary">Donate</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section id="hero" class="hero">
+    <div class="hero-inner">
+      <h2>Together, we can end the water crisis</h2>
+      <p>Water is life, yet millions live without it. Be the change and help bring clean water to those in need.</p>
+      <a href="#donate" class="btn btn--accent">Join the Mission</a>
+    </div>
+  </section>
+
+  <!-- Story -->
+  <section id="story" class="section">
+    <div class="container story-grid">
+      <div>
+        <h2>Our Story</h2>
+        <p>
+          charity: water is on a mission to bring clean and safe drinking water
+          to people around the world. We partner with local leaders to build
+          sustainable solutions that transform health, education, and livelihoods.
+        </p>
+        <blockquote>
+          “When you give clean water, you give health, hope, and a future.”
+        </blockquote>
+      </div>
+      <img src="img/story1.jpg" alt="Community water project" class="story-img" />
+    </div>
+  </section>
+
+  <!-- Impact -->
+  <section id="impact" class="section section--alt">
+    <div class="container">
+      <h2 class="center">Your Impact</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>50,000+</h3>
+          <p>Wells and water points funded</p>
+        </div>
+        <div class="card">
+          <h3>15M+</h3>
+          <p>People served with clean water</p>
+        </div>
+        <div class="card">
+          <h3>100%</h3>
+          <p>Public donations fund clean water projects</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Donate -->
+  <section id="donate" class="section">
+    <div class="container donate-wrap">
+      <div>
+        <h2>Make a Gift Today</h2>
+        <p>Your donation builds wells, filters, and training for long-term access to clean water.</p>
+        <ul class="tiers">
+          <li>$20 = clean water for 1 person</li>
+          <li>$100 = clean water for 5 people</li>
+          <li>$500 = helps fund a community well</li>
+        </ul>
+        <a href="#" class="btn btn--primary btn--lg">Give Clean Water</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>&copy; <span id="year"></span> charity: water. All rights reserved.</p>
+      <nav class="footer-nav">
+        <a href="#story">Our Story</a>
+        <a href="#impact">Impact</a>
+        <a href="#donate">Donate</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script>
+    // Auto year (ok to remove if you want 0 JS)
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+
